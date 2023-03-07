@@ -1,0 +1,28 @@
+.hero-section{
+    display: flex;
+    background-color: var(--primaryPurple);
+    background-image: url("/imgs/traveller.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-blend-mode: multiply;
+    min-height: 60rem;
+}
+
+.primary-heading{
+    color: white;
+    font-size: 6.4rem;
+    
+}
+
+.secondary-heading{
+    color: white;
+    font-size: 3.6rem;
+}
+
+.hero-text{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

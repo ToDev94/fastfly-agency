@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.logo {
+text-decoration: none;
+font-family: 'Pacifico', cursive;
+color: var(--primaryPurple);
+font-size: 3.2rem;
+
+}
+
+.navigation{
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+    
+}
