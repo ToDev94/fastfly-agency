@@ -32,7 +32,12 @@ const Card = ({
   return (
     <div className={classes["tour__card"]}>
       <div className={classes["tour__card--imgbox"]}>
-        <Image src={cardImage} fill style={{ objectFit: "cover" }} />
+        <Image
+          alt="card image"
+          src={cardImage}
+          fill
+          style={{ objectFit: "cover" }}
+        />
         <div className={classes["card__img--text"]}>
           <FiMapPin /> <text> {destination} </text>
         </div>

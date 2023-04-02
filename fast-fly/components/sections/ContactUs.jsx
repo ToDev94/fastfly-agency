@@ -47,7 +47,11 @@ const ContactUs = () => {
             <SendBtn />
           </div>
           <div className={classes["contactus-img"]}>
-            <Image src={tourist} style={{ objectFit: "contain" }} />
+            <Image
+              alt="contact us image"
+              src={tourist}
+              style={{ objectFit: "contain" }}
+            />
           </div>
         </div>
       </Container>

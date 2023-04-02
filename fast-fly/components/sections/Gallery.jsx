@@ -11,20 +11,35 @@ const Gallery = () => {
   return (
     <div className={classes.gallery}>
       <div className={classes.img}>
-        <Image src={snow} fill style={{ objectFit: "cover" }} />
+        <Image
+          alt="Cheria mountains"
+          src={snow}
+          fill
+          style={{ objectFit: "cover" }}
+        />
         <div className={classes["img-text__box"]}>
           <h3>إكتشف جبال الشريعة</h3>
         </div>
       </div>
       <div className={classes.img}>
-        <Image src={sahara} fill style={{ objectFit: "cover" }} />
+        <Image
+          alt="Sahara camping"
+          src={sahara}
+          fill
+          style={{ objectFit: "cover" }}
+        />
         <div className={classes["img-text__box"]}>
           <h3>التخييم بالصحراء</h3>
         </div>
       </div>
 
       <div className={classes.img}>
-        <Image src={discover} fill style={{ objectFit: "cover" }} />
+        <Image
+          alt="discover cities"
+          src={discover}
+          fill
+          style={{ objectFit: "cover" }}
+        />
         <div className={classes["img-text__box"]}>
           <h3>إكتشف المدن</h3>
         </div>

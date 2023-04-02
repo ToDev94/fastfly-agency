@@ -11,19 +11,19 @@ const Users = () => {
   return (
     <div className={classes.users}>
       <div className={classes.user}>
-        <Image src={ana} fill style={{ objectFit: "cover" }} />
+        <Image alt="user" src={ana} fill style={{ objectFit: "cover" }} />
       </div>
       <div className={classes.user}>
-        <Image src={alexander} fill style={{ objectFit: "cover" }} />
+        <Image alt="user" src={alexander} fill style={{ objectFit: "cover" }} />
       </div>
       <div className={classes.user}>
-        <Image src={harry} fill style={{ objectFit: "cover" }} />
+        <Image alt="user" src={harry} fill style={{ objectFit: "cover" }} />
       </div>
       <div className={classes.user}>
-        <Image src={julian} fill style={{ objectFit: "cover" }} />
+        <Image alt="user" src={julian} fill style={{ objectFit: "cover" }} />
       </div>
       <div className={classes.user}>
-        <Image src={michael} fill style={{ objectFit: "cover" }} />
+        <Image alt="user" src={michael} fill style={{ objectFit: "cover" }} />
       </div>
     </div>
   );
