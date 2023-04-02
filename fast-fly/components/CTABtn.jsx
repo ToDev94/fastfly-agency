@@ -5,7 +5,7 @@ import classes from "./CTABtn.module.css"
 
 const CTABtn = ( {children} ) => {
   return (
-    <Link href="#" className={classes["cta-btn"]} > {children} </Link>
+    <Link href="#"  className={classes["cta-btn"]} > {children} </Link>
   )
 }
 

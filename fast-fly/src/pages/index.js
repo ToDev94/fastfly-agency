@@ -1,7 +1,11 @@
-import Head from 'next/head'
-import Navigation from '../../components/Navigation'
-import HeroSection from '../../components/sections/HeroSection'
+import Head from "next/head";
+import Navigation from "../../components/Navigation";
+import ClientsSection from "../../components/sections/ClientsSection";
+import ContactUs from "../../components/sections/ContactUs";
+import DiscoverSection from "../../components/sections/DiscoverSection";
 
+import HeroSection from "../../components/sections/HeroSection";
+import ToursSection from "../../components/sections/ToursSection";
 
 export default function Home() {
   return (
@@ -12,10 +16,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-<Navigation/>
-<HeroSection/>
+      <main>
+        <HeroSection />
+        <ToursSection />
+        <DiscoverSection />
+        <ClientsSection />
+        <ContactUs />
       </main>
     </>
-  )
+  );
 }

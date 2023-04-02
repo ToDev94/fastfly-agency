@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Container = ({children}) => {
-    const styles = {
-        maxWidth:"160rem",
-        margin:"auto"
-    }
-  return (
-    <div style={styles} > {children} </div>
-  )
-}
+const Container = ({ children, maxWidth }) => {
+  const styles = {
+    maxWidth: maxWidth,
+    margin: "auto",
+  };
+  return <div style={styles}> {children} </div>;
+};
 
-export default Container
+export default Container;
